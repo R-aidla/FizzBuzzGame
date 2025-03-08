@@ -67,8 +67,8 @@ export function ShowTutorialUI()
   </div>
   <div class="hybridBox">
   <div class="imgBox">
-  <img src=./FizzBuzzGame/images/Example1.png alt="Showing UI" />
-  <img src=./FizzBuzzGame/images/Example2.png alt="Incorrect answer" />
+  <img src=./images/Example1.png alt="Showing UI" />
+  <img src=./images/Example2.png alt="Incorrect answer" />
   </div>
   <div class="textBox">
   <h1 class="unselectable">How to play this version?</h1>
