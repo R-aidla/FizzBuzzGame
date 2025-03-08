@@ -7,14 +7,14 @@
     <p>The new high score is ${e} point(s).</hp>
     <p>The previous high score was ${t} point(s).</hp>
     `,t=e,localStorage.setItem("highScore",e)):document.querySelector("#app").innerHTML+=`
-    <p>You can always do better then last time.</p>
+    <p>You can always do better than last time.</p>
     `,document.querySelector("#app").innerHTML+=`
   <button id="startButton" type="button" class="unselectable">Restart Game</button>
   <button id="tutorialButton" type="button" class="unselectable">How to play?</button>
   `,document.querySelector("#startButton").addEventListener("click",()=>S()),document.querySelector("#tutorialButton").addEventListener("click",()=>q())}function x(e){document.querySelector("#app").innerHTML=`
   <div class="titleBox">
   <h1 class="unselectable">Welcome to the game of FizzBuzz!</h1>
-  <p class="unselectable">The programmers fabled test. Now a brainteaser for the wannaby flesh computers.</p>
+  <p class="unselectable">The programmers fabled test. Now a brainteaser for the wannabe flesh computers.</p>
   </div>
   <button id="startButton" type="button" class="unselectable">Start Game</button>
   <button id="tutorialButton" type="button" class="unselectable">How to play?</button>
