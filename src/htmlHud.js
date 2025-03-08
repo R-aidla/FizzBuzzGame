@@ -1,6 +1,4 @@
 import { StartGame } from './main.js'
-import Example1 from '/tutorial/Example1.png'
-import Example2 from '/tutorial/Example2.png'
 
 export function ShowGameOverUI(currentScore, highScore)
 {
@@ -69,8 +67,8 @@ export function ShowTutorialUI()
   </div>
   <div class="hybridBox">
   <div class="imgBox">
-  <img src=${Example1} alt="Showing UI" />
-  <img src=${Example2} alt="Incorrect answer" />
+  <img src=./FizzBuzzGame/images/Example1.png alt="Showing UI" />
+  <img src=./FizzBuzzGame/images/Example2.png alt="Incorrect answer" />
   </div>
   <div class="textBox">
   <h1 class="unselectable">How to play this version?</h1>
